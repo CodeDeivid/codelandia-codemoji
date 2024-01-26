@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f8f8ff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 42px 0;
+  margin-bottom: 12px;
+}
+
+section.row {
+  display: flex;
+  gap: 1rem;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+header .logo-container h1 {
+  font-size: 32px;
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
+}
+
+header .logo-container h1.dark {
+  color: #fff;
+}
+
+header .search {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #e7e7e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header .search:hover {
+  transform: translateY(-2px);
+}
+
+header .search i {
+  font-size: 24px;
+}
+
+header .login {
+  width: fit-content;
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px solid #e7e7e7;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+header .login:hover {
+  background-color: #6610f2;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+header .dark-mode-toggle {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #e7e7e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header .dark-mode-toggle:hover {
+  transform: translateY(-2px);
+}
+
+header .dark-mode-toggle i {
+  font-size: 24px;
+}
+
+header .dark-mode-toggle i.dark {
+  color: #f5af23;
+}
+
+body.dark {
+  background-color: #2f2f2f;
+} /* #9b59b6 */
+
+.logo.dark {
+  filter: brightness(100);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main section.first {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+main section.first span {
+  align-self: flex-end;
+  color: #846aff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+main section.second h2 {
+  color: #121214;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110%;
+  max-width: 590px;
+  margin-bottom: 64px;
+}
+
+main section.second h2.dark {
+  color: #fff;
+}
+
+main section.second .formated {
+  color: #846aff;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+main section.second .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main section.second .buttons button {
+  display: flex;
+  padding: 14px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 2px solid #e7e7e7;
+}
+
+main section.second .buttons button.dark {
+  border: none;
+}
+
+main section.second .buttons button:hover {
+  transform: translateY(-2px);
+}
+
+main section.second .buttons button:nth-of-type(1) {
+  color: #F9F9F9;
+  background: #846AFF;
+}
+
+main section.second .buttons button:nth-of-type(1):hover {
+  background-color: #e7dcdc;
+  color: #121214;
+}
+
+main section.second .buttons button:nth-of-type(2) {
+  color: #121214;
+  background: #fff;
+}
+
+main section.second .buttons button:nth-of-type(2):hover {
+  background-color: #4b3ba1;
+  color: #F9F9F9;
+}
+
+main section.third {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 220px;
+}
+
+main section.third .raze {
+  align-self: flex-end;
+}
+
+main img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}

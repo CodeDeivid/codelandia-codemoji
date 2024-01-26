@@ -10,7 +10,7 @@ Exercício prático para aprimorar minhas habilidades e documentar o meu process
  * HTML
 
 ## Deploy
-* [link](https://codelandia-codemoji.vercel.app/)
+* (https://codelandia-codemoji.vercel.app/)
 
 ## Referências
 Desafio do [Iuri Code](https://iuricode.com/) na comunidade Codelândia.
